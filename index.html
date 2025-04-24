@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Lulu Saputri</title>
+  <style>
+    :root {
+      --main-pink: #f8bbd0;
+      --accent-pink: #ec407a;
+      --text-dark: #333;
+      --white: #fff;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #ffeef5;
+      color: var(--text-dark);
+    }
+
+    header {
+      background: linear-gradient(135deg, #f06292, #f48fb1);
+      color: var(--white);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .profile {
+      background: var(--white);
+      margin: -40px auto 30px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid var(--accent-pink);
+      margin-bottom: 10px;
+    }
+
+    .content {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .content h2 {
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #c2185b;
+    }
+
+    .about {
+      background: var(--white);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: justify;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .projects {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: #fff0f6;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: scale(1.03);
+    }
+
+    .project-card img {
+      width: 100%;
+      max-height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .project-card h3 {
+      color: #ad1457;
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .project-card p {
+      font-size: 0.95em;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      margin-right: 10px;
+      color: #d81b60;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .project-card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: var(--accent-pink);
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portofolio Lulu Saputri</h1>
+    <p>Mata Kuliah Grafika Komputer</p>
+  </header>
+
+  <div class="profile">
+    <img src="cantik.jpeg" alt="Foto Lulu Saputri">
+    <h2>Lulu Saputri</h2>
+    <p>2413025017 | Pendidikan Teknologi Informasi 2024 A</p>
+  </div>
+
+  <div class="content">
+    <h2>Tentang Saya</h2>
+    <div class="about">
+      <p>
+        Halo! Selamat Datang, Saya <strong>Lulu Saputri</strong>, mahasiswi Universitas Lampung, jurusan Pendidikan Teknologi Informasi. 
+        Di website ini, saya akan menampilkan hasil tugas-tugas saya dari mata kuliah <em>Grafika Komputer</em>. 
+        Semoga dapat memberikan gambaran tentang proses belajar dan pencapaian saya selama perkuliahan. 
+      </p>
+    </div>
+
+    <h2 style="margin-top: 50px;">Tugas Grafika Komputer</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Tugas Pertama</h3>
+        <p>Menceritakan salah satu tokoh yang berperan dalam Grafika Komputer.</p>
+        <a href="Lulu Saputri_2413025017_Tokoh Grafika Komputer.pdf" target="_blank">📄 Lihat PDF</a>
+        <a href="Lulu Saputri_2413025017_PPT Tokoh Grafika Komputer.pdf" target="_blank">📄 Lihat PPT</a>
+        <a href="https://youtu.be/SKHJGcDPUoE?si=cfxPOUUUdmC6Vp8n" target="_blank">📺 Tonton Video</a>
+      </div>
+      <div class="project-card">
+        <h3>Tugas Kedua</h3>
+        <p>Grafika Komputer: Algoritma Pembentukan Garis.</p>
+        <a href="Grafika Komputer Garis DDA&Bresenham_Lulu Saputri_2413025017.pdf" target="_blank">📄 Lihat PDF</a>
+        <a href="https://youtu.be/wpYEB9OUe_Q?si=twoc6lSoZthwR3O0" target="_blank">📺 Tonton Video</a>
+        <a href="https://docs.google.com/spreadsheets/d/1bbZ_BZR_SSTf96Bs3b0VP13wysuGu-kfQi1UatPHovQ/edit?usp=sharing" target="_blank"> 📄Latihan Tabel Iterasi DDA </a>
+      </div>
+      <div class="project-card">
+        <h3>Tugas Ketiga</h3>
+        <p>Grafika Komputer: Algoritma Pembentukan Lingkaran.</p>
+        <a href="Grafika Komputer Lingkaran Bresenham&Mindpoint_Lulu Saputri_2413025017.pdf" target="_blank">📄 Lihat PDF</a>
+        <a href="https://youtu.be/Adw3YTrRO6I?si=-V4FV2wk-ABcbWRT" target="_blank">📺 Tonton Video</a>
+        <a href="https://docs.google.com/spreadsheets/d/1GgOz-f9N-hYMl6JLnIeCmZtE7h3ZuHF0EzjneQw2kSw/edit?gid=0#gid=0"> 📄Latihan Tabel Iterasi BRE CIRC </a>
+      </div>
+      <div class="project-card">
+        <h3>Tugas Keempat</h3>
+        <p>Grafika Komputer: Algoritma Pembentukan Kurva.</p>
+        <a href="Lulu Saputri_2413025017_Algoritma Pembentukan Kurva.pdf" target="_blank">📄 Lihat PDF</a>
+        <a href="https://youtu.be/ngxQ-DPisVE?si=6yMcIsxttd_oESAi" target="_blank">📺 Tonton Video</a>
+        <a href="https://docs.google.com/spreadsheets/d/1hyBaBc5gsVx6kUo-gzapTD2oWWhd_6ck5JJEaOLzhe0/edit?usp=sharing"> 📄Latihan Tabel Iterasi KURVA BEZIER </a>
+      </div>
+      <div class="project-card">
+        <h3>Tugas Kelima</h3>
+        <p>Kuis: Persamaan Misteri.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025, Lulu Saputri.
+  </footer>
+
+</body>
+</html>
